@@ -43,7 +43,7 @@ export const updateAuthor = async (req: Request, res: Response) => {
         });
         res.status(200).json(updateAuthor);
     } catch (error) {
-        res.status(500).json({ message: "Error updating post" });
+        res.status(500).json({ message: "Error updating Author" });
     }
 };
 
